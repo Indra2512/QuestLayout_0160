@@ -24,5 +24,10 @@ fun ActivitasPertama(modifier: Modifier) {
             fontSize = 35.sp,
             fontWeight = FontWeight.Bold
         )
+        Text(
+            stringResource("Universitas Muhammadiyah Yogyakarta"),
+            fontSize = 22.sp
+        )
+
     }
 }
