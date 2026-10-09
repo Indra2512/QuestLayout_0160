@@ -14,5 +14,15 @@ import java.lang.reflect.Modifier
 
 @Composable
 fun ActivitasPertama(modifier: Modifier) {
-
+    Column(
+        modifier = Modifier.padding(top = 100.dp)
+            .fillMaxSize(),
+        horizontalAlignment = Alignment.CenterHorizontally
+    ) {
+        Text(
+            stringResource("Teknologi Informasi"),
+            fontSize = 35.sp,
+            fontWeight = FontWeight.Bold
+        )
+    }
 }
